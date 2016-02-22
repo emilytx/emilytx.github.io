@@ -1,4 +1,31 @@
-p{
-	color: dimgray;
-	background-color: aquamarine;
+@import url(https://fonts.googleapis.com/css?family=Aclonica|Nunito|Averia+Sans+Libre:400,700|Ribeye|Irish+Grover);
+.myname{
+	font-size: 5em;
+	color: #44887B;
+	background-color: #FFE0AA;
+	font-family: 'Ribeye', cursive;
+	text-align: center;
+}
+.mydescription{
+	font-size: 1.5em;
+	color: gray;
+	font-family: 'Nunito', sans-serif;
+	text-align: left;
+}
+/* unvisited link */
+a:link{
+	color: #CA6573;
+	font-family: 'Nunito', sans-serif;
+}
+/* visited link */
+a:visited {
+    color: #791422;
+}
+/* mouse over link */
+a:hover {
+    color: #51000B;
+}
+/* selected link */
+a:active {
+    color: gray;
 }
